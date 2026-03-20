@@ -1,5 +1,7 @@
 from app.db.session import SessionLocal, engine, Base
 from app.models.user import User
+from app.models.agent import Agent
+from app.models.memory import ConversationHistory, LongTermMemory, UserPreference
 from app.core.security import get_password_hash
 from app.core import config
 

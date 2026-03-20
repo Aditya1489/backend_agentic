@@ -22,3 +22,5 @@ TWILIO_PHONE_NUMBER: str = os.getenv("TWILIO_PHONE_NUMBER", "")
 NGROK_URL: str = os.getenv("NGROK_URL", "")
 
 OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
+ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
+GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
